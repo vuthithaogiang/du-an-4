@@ -1254,3 +1254,134 @@ input, textarea, select, button{
     color: #656689;
     font-weight: 400;
 }
+
+/* Footer */
+.footer{
+    margin-top: 52px;
+    background-color: #FFF6ED;
+}
+
+.footer-inner{
+    display: flex;
+}
+
+.footer-left{
+    width: 42.7%;
+    padding-top: 114px;
+    padding-bottom: 148px;
+}
+
+
+.footer-logo{
+    display: flex;
+     align-items: center;
+     gap: 8px;
+}
+
+.footer-logo span{
+    display: inline-flex;
+    color: #000958;
+    font-size: 2.5rem;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.footer-email{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-input{
+     width: 253px;
+     height: 45px;
+     outline: none;
+     border: none;
+     padding-left: 22px;
+     border: 1px solid rgba(255, 91, 46, 0.25);
+     border-top-left-radius: 23px;
+     border-bottom-left-radius: 23px;
+     padding-right: 30px;
+}
+
+.footer-send-email{
+    display: inline-flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: #FF5B2E;
+    box-shadow: 0px 15px 28px -7px rgba(255, 91, 46, 0.3);
+    border-radius: 22.5px;
+    color: #fff;
+    border-color: transparent;
+    margin-left: -22px;
+}
+
+.footer-follow{
+    margin-top: 68px;
+}
+
+.footer-follow-heading{
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.11;
+    color: #000958;
+}
+
+.footer-follow-list{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    column-gap: 16px;
+}
+
+.footer-follow-item{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+   
+}
+
+
+
+/*  Right*/
+.footer-right{
+  width: 57.3%;
+  padding-bottom: 52px;
+  padding-left: 129px;
+  padding-top: 52px;
+
+}
+
+.footer-nav{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 137px;
+    row-gap: 58px;
+}
+
+.footer-item-heading{
+    margin-bottom: 14px;
+    font-weight: 600;
+    line-height: 1.11;
+    font-size: 1.8rem;
+    color: #000958;
+}
+
+.footer-link{
+    font-size: 1.4rem;
+    color: #656689;
+    font-weight: 400;
+    line-height: 2;
+}
+
+
+
