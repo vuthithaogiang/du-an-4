@@ -1203,7 +1203,6 @@ input, textarea, select, button{
 
 .blog-item-media{
     width: 358px;
- 
     border-radius: 24px;
 }
 
@@ -1226,6 +1225,7 @@ input, textarea, select, button{
 .blog-item-img{
     display: block;
     width: 90%;
+    height: 296px;
     object-fit: cover;
     margin-left: auto;
 }
@@ -1245,6 +1245,8 @@ input, textarea, select, button{
     font-size: 2.2rem;
     line-height: 1.55;
     color: #000958;
+    padding-right: 10px;
+   
 }
 
 .blog-item-desc{
@@ -1253,6 +1255,8 @@ input, textarea, select, button{
     line-height: 1.71;
     color: #656689;
     font-weight: 400;
+    padding-right: 10px;
+   
 }
 
 /* Footer */
@@ -1354,11 +1358,13 @@ input, textarea, select, button{
 
 /*  Right*/
 .footer-right{
-  width: 57.3%;
+  background-color: #fffaf5;
+  flex: 1;
+  /* width: 57.3%; */
   padding-bottom: 52px;
   padding-left: 129px;
   padding-top: 52px;
-
+  
 }
 
 .footer-nav{
@@ -1382,6 +1388,4 @@ input, textarea, select, button{
     font-weight: 400;
     line-height: 2;
 }
-
-
 
