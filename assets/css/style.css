@@ -1262,7 +1262,7 @@ input, textarea, select, button{
 /* Footer */
 .footer{
     margin-top: 52px;
-    background-color: #FFF6ED;
+    background: linear-gradient(to right, #fff6ed 42.7%, transparent 42.7%);
 }
 
 .footer-inner{
@@ -1358,7 +1358,6 @@ input, textarea, select, button{
 
 /*  Right*/
 .footer-right{
-  background-color: #fffaf5;
   flex: 1;
   /* width: 57.3%; */
   padding-bottom: 52px;
