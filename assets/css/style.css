@@ -372,7 +372,7 @@ input, textarea, select, button{
 
 .about-check-item::after{
     position: absolute;
-    content: url(./assets/images/icon01.svg);
+    content: url(./../images/icon01.svg);
     top: 3px;
     left: 5px;
 }
@@ -677,7 +677,7 @@ input, textarea, select, button{
 }
 
 .service-item-more::after{
-    content: url(./assets/images/ArrowUpRight.svg);
+    content: url(./../images/ArrowUpRight.svg);
     margin: 2px 0 0 5px;
 }
 
@@ -801,21 +801,21 @@ input, textarea, select, button{
 }
 
 .staff-item:nth-child(1) .staff-item-img-wrap::after{
-    background-image: url(./assets/images/staff-decor01.svg);
+    background-image: url(./../images/staff-decor01.svg);
 }
 
 .staff-item:nth-child(2) .staff-item-img-wrap::after{
-    background-image: url(./assets/images/staff-decor02.svg);
+    background-image: url(./../images/staff-decor02.svg);
     background-position: 0 16px;
   
 }
 
 .staff-item:nth-child(3) .staff-item-img-wrap::after{
-    background-image: url(./assets/images/staff-decor03.svg);
+    background-image: url(./../images/staff-decor03.svg);
 }
 
 .staff-item:nth-child(4) .staff-item-img-wrap::after{
-    background-image: url(./assets/images/staff-decor04.svg);
+    background-image: url(./../images/staff-decor04.svg);
     background-position: 0 16px;
 }
 
@@ -1013,12 +1013,12 @@ input, textarea, select, button{
 }
 
 .check::before{
-    content: url(./assets/images/check-icon.svg);
+    content: url(./../images/check-icon.svg);
     margin-right: 14px;
 }
 
 .no-check::before{
-    content: url(./assets/images/nocheck-icon.svg);
+    content: url(./../images/nocheck-icon.svg);
     margin-right: 14px;
 
 }
